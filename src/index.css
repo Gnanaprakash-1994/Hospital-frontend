@@ -1,0 +1,12 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.menu{
+    @apply text-slate-500 text-lg font-normal hover:rounded-full hover:bg-sky-400 hover:text-white px-4 py-2 transform ease-in-out duration-300  border-green-500
+}
+
+.doctor{
+    @apply rounded-lg border-transparent flex-1 appearance-none border border-gray-300 w-full py-2 px-4 bg-white text-gray-700 placeholder-gray-400 shadow-sm text-base focus:outline-none focus:ring-2 focus:ring-purple-600 focus:border-transparent
+}
