@@ -2,6 +2,7 @@ import React from 'react'
 import {Link} from 'react-router-dom'
 
 const Header = () => {
+
   return (
     <section>
         <h1 className='font-mono font-semibold mt-6  text-3xl text-center bg-amber-200 md:block sm:mx-auto'>VGP Hospital Management</h1>
